@@ -2,8 +2,8 @@
     Private _nombre As String
 
 
-    Public Sub New()
-        Me.Nombre = ""
+    Public Sub New(nombre As String)
+        Me.Nombre = nombre
 
 
     End Sub

@@ -4,10 +4,10 @@
     Private _base As UShort
     Private _altura As UShort
 
-    Sub New(nombre, base, altura)
-        Me.Nombre = nombre
-        Me.Base = 0
-        Me.Altura = 0
+    Sub New(nombre As String, base As UShort, altura As UShort)
+        MyBase.New(nombre)
+        Me.Base = base
+        Me.Altura = altura
     End Sub
 
     Public Property Base() As UShort

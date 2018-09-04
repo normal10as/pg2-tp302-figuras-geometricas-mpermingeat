@@ -4,9 +4,9 @@
     Private _lado As UShort
 
 
-    Sub New(nombre, base, altura)
-        Me.Nombre = nombre
-        Me.Lado = 0
+    Sub New(nombre As String, lado As UShort)
+        MyBase.New(nombre)
+        Me.Lado = lado
 
     End Sub
 

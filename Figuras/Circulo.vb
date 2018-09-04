@@ -4,8 +4,8 @@
     Private _radio As UShort
 
 
-    Sub New(nombre, base, altura)
-        Me.Nombre = nombre
+    Sub New(nombre As String, radio As UShort)
+        MyBase.New(nombre)
         Me.Radio = 0
 
     End Sub
